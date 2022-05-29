@@ -24,7 +24,7 @@ public class ReleamClientBot {
         builder.setActivity(Activity.watching("Releam"));
         CommandClient commandClient = builder.build();
 
-        JDA jda = JDABuilder.createDefault("OTgwNDYwODQ4NjM4MjE4Mjkw.GLW_dz.DI0kWvEB1ZBReHT2lbipJ_0EkXQAKuW9XHNO4Y")
+        JDA jda = JDABuilder.createDefault("TOKEN")
                 .disableCache(CacheFlag.VOICE_STATE)
                 .setBulkDeleteSplittingEnabled(false)
                 .addEventListeners(
