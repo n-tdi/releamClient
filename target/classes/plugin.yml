@@ -1,0 +1,8 @@
+name: ReleamClient
+version: '1.0'
+main: ntdi.world.releamclient.ReleamClient
+api-version: 1.18
+prefix: ReleamClient
+authors: [ Ntdi ]
+description: A automoderation bot
+website: ntdi.world
